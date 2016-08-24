@@ -1,7 +1,7 @@
 --[[
 # For More Information ....! 
-# Developer : Aziz < @devss_bot >      #Dev
-# our channel: @help_tele
+# Developer : osama < @os_aa23 >      #Dev
+# our channel: @os_aa23
 ]]
 local function lock_group_namemod(msg, data, target)
   local group_name_set = data[tostring(target)]['settings']['set_name']
