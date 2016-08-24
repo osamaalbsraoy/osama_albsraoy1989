@@ -70,16 +70,16 @@ local function description_rules(msg, nama)
          rules = "\nRules :\n"..rules.."\n"
       end
       local sambutan = "❤️ آهلآَ وسَهلآَ كبَدَ روَحي 😘"..nama.."\n🌹 نَـورتَ مجـموَعـهْ 👥 '"..string.gsub(msg.to.print_name, "_", " ").."'\n🌹 يرجى اتباع القوانين لتجنب الطرد 😉 \n"
-      local text = sambutan.."لروئية القوانين المجموعة القوانين 🙏🏿      "
+      local text = sambutan.."لروئية قوانين المجموعة /القوانين 🙏🏿      "
       local text = text..""
       local text = text.."                                               "
-      local text = text.."للخروج من المجموعة مغادره ☹️"
+      local text = text.."للخروج من المجموعة /مغادره ☹️"
       local text = text..""
       local text = text.."                                               "
       local text = text.."قنـــأتـنأ تأبعونأَ هنـَأ [فضولك حيخليك تدخل هنا👇🏻]"
-      local text = text..""
+      local text = text.."@IRAQEEN2011"
       local text = text.."                                               "
-      local text = text.."@help_telp \n✋🏿☝🏿️"
+      local text = text.."️"
       local receiver = get_receiver(msg)
       send_large_msg(receiver, text, ok_cb, false)
    end
@@ -108,7 +108,7 @@ local function run(msg, matches)
       description_rules(msg, nama)
    elseif matches[1] == "chat_del_user" then
        local bye_name = msg.action.user.first_name
-       return 'وداعا عزيزي 🌹  '..bye_name
+       return '✋اٌلِـلِـهٌ اٌلِـلِـهٌ اٌلِـلِـهٌ وِيٌـاٌكُ بّـيٌـبّـاٌيٌـ مِـعٍ اٌلِـسُلِـاٌمِـهٌ✋ سُدّ اٌلِـبّـاٌبّـ وِرُاٌكُ وِلِـاٌ تْبّـوِكُ شْحٍاٌطًاٌتْ😂 '..bye_name
    end
 end
 
@@ -122,3 +122,5 @@ return {
    },
    run = run
 }
+
+-- Dev by @os_aa23
