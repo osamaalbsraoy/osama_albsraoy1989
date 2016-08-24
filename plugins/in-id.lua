@@ -1,8 +1,4 @@
---[[
-# For More Information ....! 
-# Developer : Aziz < @devss_bot >      #Dev
-# our channel: @help_tele
-]]
+
 do
 
   local function action_by_reply(extra, success, result)
@@ -13,7 +9,7 @@ do
     end
     local text = 'User ID  : '..result.from.peer_id..'\n'
                ..'Username : '..user_name..'\n'
-               ..'CHANEEL BOT: @help_telp'
+               ..'CHANEEL BOT: @OS_AA23'
     send_large_msg(extra, text)
   end
 
