@@ -1,8 +1,4 @@
---[[
-# For More Information ....! 
-# Developer : Aziz < @devss_bot >      #Dev
-# our channel: @help_tele
-]]
+
 
 local access_token = "3084249803.280d5d7.999310365c8248f8948ee0f6929c2f02" -- your api key
 local function instagramUser(msg, query)
