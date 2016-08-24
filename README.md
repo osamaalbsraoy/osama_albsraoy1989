@@ -21,11 +21,11 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ************************************************************
 ورأهأَ خلي👇🏿
 **************
-git clone https://github.com/Joker-development/Joker_development.git
+git clone https://github.com/osamaalbsraoy/osama_albsraoy1989.git
 *****************************************************
 ورهأ خلي 👇🏿 And vinegary
 **************************
-cd Joker_development
+cd osama_albsraoy1989
 **************************
 ورهأَ خلي👇🏿 And vinegary
 **************************
@@ -63,7 +63,7 @@ redis-server
 وفتح ترمنال ثاني وخلي 👇🏿 Open Terminal and second vinegary
 ```sh
 
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/Joker-development/Joker_development.git && cd Joker_development && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https:https://github.com/osamaalbsraoy/osama_albsraoy1989.git && cd osama_albsraoy1989 && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 
 * * *
@@ -72,25 +72,3 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 # Enter a phone number & confirmation code.
 Congratulations, you better bot
-
-### Realm configuration
-
-After you run the bot for first time, send it `!id`. Get your ID and stop the bot.
-
-Open ./data/config.lua and add your ID to the "sudo_users" section in the following format:
-✋🏿 لتصبح مطور بوتك غير الايدي خاص كونفج بايديك 👇🏿
-```
-  sudo_users = {
-    190385827,
-    0,
-    YourID
-  }
-```
-😘 مـبروَك أصبَحتـَ مـطورَ بوـتكَ لتوأصل معي 
-
-#Dev : [@fuck_8_you](https://telegram.me/fuck_8_you)
-#Dev_BOT :  [@devss_bot](https://telegram.me/devss_bot)
-#Dev_Channel :  [@help_telp](https://telegram.me/help_telp)
-
-عندكَ فكره تطوير السورس او البوت تفظل هنأَ☝🏿️
-You have an idea to develop Alsoors or bot prefer ☝🏿️✋🏿
