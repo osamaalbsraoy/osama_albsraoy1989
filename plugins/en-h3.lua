@@ -1,7 +1,7 @@
 --[[
 # For More Information ....! 
-# Developer : Aziz < @devss_bot >      #Dev
-# our channel: @help_tele
+# Developer : OSAMA < @OS_AA23 >      #Dev
+# our channel: @OS_AA23
 ]]
 do
 
@@ -43,9 +43,8 @@ return [[
 مساعدة لظهار ىالاوامر الرئيسية 
 🔸➖🔹➖🔸➖🔹➖🔸
 #المطور 
-@devss_bot
-كروب دعم البوت
-@sunbot_dev
+@OS_AA23
+
 ]]
 end
 
