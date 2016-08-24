@@ -1,7 +1,7 @@
 --[[
 # For More Information ....! 
-# Developer : Aziz < @devss_bot >      #Dev
-# our channel: @help_tele
+# Developer : OSAMA < @OS_AA23 >      #Dev
+# our channel: @OS_AA23
 ]]
 local function get_variables_hash(msg)
   if msg.to.type == 'chat' or msg.to.type == 'channel' then
