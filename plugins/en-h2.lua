@@ -1,7 +1,7 @@
 --[[
 # For More Information ....! 
-# Developer : Aziz < @devss_bot >      #Dev
-# our channel: @help_tele
+# Developer : OSAMA < @OS_AA23 >      #Dev
+# our channel: @OS_AA23
 ]]
 do
 
@@ -61,10 +61,9 @@ _________________________
 🔸o join :منع الدخول عبر الرابط
 🔸c join :السماح  الدخول عبر الرابط
 🔹🔸🔹🔸🔹🔸🔹🔸🔹
-SUDO 1 [@sajademo] 🔱
-SUDO 2 [@fuck_8_you] 🔱
-(Channel)@help_telp 👾
-Channel BOT : @tram_2
+SUDO 1 [@OS_AA23] 🔱
+SUDO 2 [@IRAQEEN2011] 🔱
+
 
 ]]
 end
