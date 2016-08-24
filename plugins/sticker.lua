@@ -1,7 +1,7 @@
 --[[
 # For More Information ....! 
-# Developer : Aziz < @devss_bot >      #Dev
-# our channel: @help_tele
+# Developer : osama < @os_aa23 >      #Dev
+# our channel: @os_aa23
 ]]
 local function tosticker(msg, success, result)
   local receiver = get_receiver(msg)
