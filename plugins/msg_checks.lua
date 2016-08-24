@@ -1,7 +1,7 @@
 --[[
 # For More Information ....! 
-# Developer : Aziz < @devss_bot >      #Dev
-# our channel: @help_tele
+# Developer : osama < @os_aa23 >      #Dev
+# our channel: @os_aa23
 ]]
 --Begin msg_checks.lua
 --Begin pre_process function
@@ -287,4 +287,4 @@ return {
 	pre_process = pre_process
 }
 --End msg_checks.lua
---By @Rondoozle
+--By @os_aa23
