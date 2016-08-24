@@ -1,3 +1,12 @@
+--[[ 
+▀▄ ▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀          
+▀▄ ▄▀                                      ▀▄ ▄▀ 
+▀▄ ▄▀    BY OSAMA                          ▀▄ ▄▀ 
+▀▄ ▄▀     BY OSAMA (@OS_AA23)              ▀▄ ▄▀ 
+▀▄ ▄▀ JUST WRITED BY OSAMA                 ▀▄ ▄▀   
+▀▄ ▄▀          Orders  : سوبر كروب         ▀▄ ▄▀ 
+▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
+--]]
 local function check_member_super(cb_extra, success, result)
   local receiver = cb_extra.receiver
   local data = cb_extra.data
@@ -36,7 +45,7 @@ local function check_member_super(cb_extra, success, result)
       end
       data[tostring(groups)][tostring(msg.to.id)] = msg.to.id
       save_data(_config.moderation.data, data)
-	  local text = '✔️ تمً تًفعَـيل ألمَجمَوَعـه ✔️.'
+	  local text = 'تم تفعيل المجموعه بنجاح🌞'
       return reply_msg(msg.id, text, ok_cb, false)
     end
   end
@@ -60,7 +69,7 @@ local function check_member_superrem(cb_extra, success, result)
       end
       data[tostring(groups)][tostring(msg.to.id)] = nil
       save_data(_config.moderation.data, data)
-	  local text = '✔️ تمً تَعطَيلَ ألمَجمَوَعـه ✔️.'
+	  local text = 'تم تعطيل المجموعه😑👎'
       return reply_msg(msg.id, text, ok_cb, false)
     end
   end
@@ -207,11 +216,11 @@ local function lock_group_spam(msg, data, target)
   end
   local group_spam_lock = data[tostring(target)]['settings']['lock_spam']
   if group_spam_lock == 'yes' then
-    return '😠 مضاد السبام بالفعل مفتوح 💊🔓'
+    return 'الكلايش بلفعل مقفله لا تلح 😒💔'
   else
     data[tostring(target)]['settings']['lock_spam'] = 'yes'
     save_data(_config.moderation.data, data)
-    return 'تم ✔️ فتح مضاد السبام 💊 🔓'
+    return 'تم قفل الكلايش🤓🔪'
   end
 end
 
@@ -221,11 +230,11 @@ local function unlock_group_spam(msg, data, target)
   end
   local group_spam_lock = data[tostring(target)]['settings']['lock_spam']
   if group_spam_lock == 'no' then
-    return '😠 مضاد السبام بالفعيل مقفول 💊 ✔️'
+    return 'الكلايش بالفعل مفتوحه ✅️'
   else
     data[tostring(target)]['settings']['lock_spam'] = 'no'
     save_data(_config.moderation.data, data)
-    return 'تم ✔️ قفل مضاد السبام 💊 🔐'
+    return 'تم فتح الكلايش 💝😊'
   end
 end
 
@@ -461,12 +470,12 @@ local function set_public_membermod(msg, data, target)
 	save_data(_config.moderation.data, data)
   end
   if group_public_lock == 'yes' then
-    return '😠 المجموعه عامه بالفعل ✔️'
+    return 'المراقبه  شغاله بالفعل😠✔️️'
   else
     data[tostring(target)]['settings']['public'] = 'yes'
     save_data(_config.moderation.data, data)
   end
-  return '👥 المجموعه الان اصبحت عامه ♨️✔️'
+  return 'تم تشغيل المراقبه ☺️❤️️✔️'
 end
 
 local function unset_public_membermod(msg, data, target)
@@ -480,12 +489,12 @@ local function unset_public_membermod(msg, data, target)
 	save_data(_config.moderation.data, data)
   end
   if group_public_lock == 'no' then
-    return '👥المجموعه ❌ ليست عامه ❗️'
+    return 'المجموعه غير مراقبه بالفعل😒✅'
   else
     data[tostring(target)]['settings']['public'] = 'no'
 	data[tostring(target)]['long_id'] = msg.to.long_id 
     save_data(_config.moderation.data, data)
-    return '👥 المجموعه الان ليست عامه ❗️'
+    return 'المراقبه غير مفعله❌'
   end
 end
 
@@ -1075,7 +1084,7 @@ local function run(msg, matches)
 	local print_name = user_print_name(msg.from):gsub("‮", "")
 	local name_log = print_name:gsub("_", " ")
 	local data = load_data(_config.moderation.data)
-		if matches[1] == 'تفعيل المجموعه' and not matches[2] then
+		if matches[1] == 'تفعيل' and not matches[2] then
 			if not is_admin1(msg) and not is_support(support_id) then
 				return
 			end
@@ -1089,7 +1098,7 @@ local function run(msg, matches)
 			channel_set_admin(receiver, 'user#id'..msg.from.id, ok_cb, false)
 		end
 
-		if matches[1] == 'تعطيل المجموعه' and is_admin1(msg) and not matches[2] then
+		if matches[1] == 'تعطيل' and is_admin1(msg) and not matches[2] then
 			if not is_super_group(msg) then
 				return reply_msg(msg.id, '👈 ألمَجمَوَعــهَ بألــتأكيَدَ تَمَ تَعَطيَلهَأَ ✔️..', ok_cb, false)
 			end
@@ -1632,7 +1641,7 @@ local function run(msg, matches)
 				savelog(msg.to.id, name_log.." ["..msg.from.id.."] locked contact posting")
 				return lock_group_contacts(msg, data, target)
 			end
-			if matches[2] == 'الكل' then
+			if matches[2] == 'التحذير' then
 				savelog(msg.to.id, name_log.." ["..msg.from.id.."] locked enabled strict settings")
 				return enable_strict_rules(msg, data, target)
 			end
@@ -1683,7 +1692,7 @@ local function run(msg, matches)
 				return
 			end
 			if tonumber(matches[2]) < 5 or tonumber(matches[2]) > 20 then
-				return "😈 ضع تكرار من 5 الئ 20 ✔️"
+				return "ضع التكرار من 5⃣ الى 0⃣2⃣  🌞💛️"
 			end
 			local flood_max = matches[2]
 			data[tostring(msg.to.id)]['settings']['flood_msg_max'] = flood_max
@@ -1973,8 +1982,8 @@ end
 
 return {
   patterns = {
-	"^(تفعيل المجموعه)$",
-	"^(تعطيل المجموعه)$",
+	"^(تفعيل)$",
+	"^(تعطيل)$",
 	"^([Mm]ove) (.*)$",
 	"^(معلومات المجموعه)$",
 	"^(الاداريين)$",
@@ -2021,11 +2030,11 @@ return {
 	"^(القوانين)$",
 	"^(ضع تكرار) (%d+)$",
 	"^(مسح) (.*)$",
-	"^([Hh]elpp)$",
+	"^[#!/]([Hh]elpp)$",
 	"^(اعدادات الوسائط)$",
 	"^(المكتومين)$",
-    "(mp) (.*)",
-	"(md) (.*)",
+    "[#!/](mp) (.*)",
+	"[#!/](md) (.*)",
     "^(https://telegram.me/joinchat/%S+)$",
 	"msg.to.peer_id",
 	"%[(document)%]",
@@ -2038,5 +2047,5 @@ return {
   run = run,
   pre_process = pre_process
 }
---End supergrpup.lua
---By @SAJJADNOORI
+
+--By @OS_AA23
