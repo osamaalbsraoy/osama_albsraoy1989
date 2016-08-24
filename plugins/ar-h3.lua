@@ -1,9 +1,9 @@
 --[[ 
 ▀▄ ▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀          
 ▀▄ ▄▀                                      ▀▄ ▄▀ 
-▀▄ ▄▀    BY jOker                          ▀▄ ▄▀ 
-▀▄ ▄▀     BY joker       (@fuck_8_you)     ▀▄ ▄▀ 
-▀▄ ▄▀ JUST WRITED BY joker                 ▀▄ ▄▀   
+▀▄ ▄▀    BY osama                          ▀▄ ▄▀ 
+▀▄ ▄▀     BY osama       (@OS_AA23)        ▀▄ ▄▀ 
+▀▄ ▄▀ JUST WRITED BY osama                 ▀▄ ▄▀   
 ▀▄ ▄▀       broadcast  : م 3               ▀▄ ▄▀ 
 ▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
 --]]
@@ -30,8 +30,8 @@ return [[اوامر المطورين فقط
 🔘صنع مجموعه + اسم لعمل مجموعه جديد وخارقة
  :للتواصل مع المطور
 __________________
-🗯#Dev - @devss_bot
-💭#channel - @help_tele🔘]]
+🗯#Dev - @OS_AA23
+💭#channel - @IRAQEEN2011🔘]]
 end
 
 if not is_momod(msg) then
