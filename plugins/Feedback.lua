@@ -1,7 +1,7 @@
 --[[
 # For More Information ....! 
 # Developer : Aziz < @devss_bot >      #Dev
-# our channel: @help_tele
+# our channel: @os_aa23
 ]]
 do
 
@@ -12,7 +12,7 @@ do
 
 
    local text = matches[1]
-   local chat = "channel#id"..1030043851 --تضع هنا ايدي مجموعت الدعم الخاصه بك
+   local chat = "channel#id".. 225542969 --تضع هنا ايدي مجموعت الدعم الخاصه بك
 
   local sends = send_msg(chat, fuse, ok_cb, false)
   return 'تم ارسال رسالتك الى مجموعة الدعم 🙂💕'
