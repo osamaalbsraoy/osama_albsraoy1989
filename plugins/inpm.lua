@@ -1,7 +1,7 @@
 --[[
 # For More Information ....! 
-# Developer : Aziz < @devss_bot >      #Dev
-# our channel: @help_tele
+# Developer : osama < @os_aa23 >      #Dev
+# our channel: @os_aa23
 ]]
 local function pre_process(msg)
 local to = msg.to.type
