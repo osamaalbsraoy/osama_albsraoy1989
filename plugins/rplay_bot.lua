@@ -1,8 +1,3 @@
---[[
-# For More Information ....! 
-# Developer : Aziz < @devss_bot >      #Dev
-# our channel: @help_tele
-]]
 do 
 
 local function run(msg, matches) 
@@ -11,13 +6,13 @@ if ( msg.text ) then
 
   if ( msg.to.type == "user" ) then
 
-     return "اضغط ع المعرف للتحدث مع لصنعني \n @devss_bot \n  👾 "
+     return "❣أهلا وسـهلا بيك عيوني ❣ \n👌🏻الحسـاب غير متوفر حاليا👌 \n👍حــســاب بــوت فــقــط👍 \n📩أذا تــحــتــاج أي شــي 📩 \n💋تـعـال هنـا وتدلل أغاتي💋 \n❤️ @os_aa23 ❤️  \n🤗خــــــــــــــــادمك أنـــــــــي🤗  👍🏻قـــــنــــاتـنـا الــوحــيـدة 👍🏻 \n  ❣@iraqeen2011❣"
      
   end 
    
 end 
 
--- #DEV @devss_bot
+-- #DEV @os_aa23
 
 end 
 
@@ -29,3 +24,4 @@ return {
 } 
 
 end 
+-- By @os_aa23
