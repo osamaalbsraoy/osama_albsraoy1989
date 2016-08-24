@@ -1,7 +1,7 @@
 --[[
 # For More Information ....! 
-# Developer : Aziz < @devss_bot >      #Dev
-# our channel: @help_tele
+# Developer : os_aa23 < @os_aa23 >      #Dev
+# our channel: @os_aa23
 ]]
 do
 
