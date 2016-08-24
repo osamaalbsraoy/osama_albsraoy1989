@@ -1,10 +1,10 @@
 --[[ 
 ▀▄ ▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀          
 ▀▄ ▄▀                                      ▀▄ ▄▀ 
-▀▄ ▄▀    BY jOker                          ▀▄ ▄▀ 
-▀▄ ▄▀     BY joker       (@fuck_8_you)     ▀▄ ▄▀ 
-▀▄ ▄▀ JUST WRITED BY joker                 ▀▄ ▄▀   
-▀▄ ▄▀       broadcast  : منع الكلمات         ▀▄ ▄▀ 
+▀▄ ▄▀    BY OSAMAALBSRAOY                   ▀▄ ▄▀ 
+▀▄ ▄▀     BYOSAMAALBSRAOY       (@OS_AA23)  ▀▄ ▄▀ 
+▀▄ ▄▀ JUST WRITED BY OSAMAALBSRAOY          ▀▄ ▄▀   
+▀▄ ▄▀       broadcast  : منع الكلمات       ▀▄ ▄▀ 
 ▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
 --]]
 local function addword(msg, name)
