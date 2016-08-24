@@ -1,12 +1,4 @@
---[[ 
-▀▄ ▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀          
-▀▄ ▄▀                                      ▀▄ ▄▀ 
-▀▄ ▄▀    BY jOker                          ▀▄ ▄▀ 
-▀▄ ▄▀     BY joker       (@fuck_8_you)     ▀▄ ▄▀ 
-▀▄ ▄▀ JUST WRITED BY joker                 ▀▄ ▄▀   
-▀▄ ▄▀       broadcast  : الطقس            ▀▄ ▄▀ 
-▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
---]]
+
 
 local BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 
@@ -37,7 +29,7 @@ local function get_weather(location)
     conditions = conditions .. 'مه 🌫'
   end
 
-  return temp .. '\n\n' .. conditions..'\n\nالمزيد : @help_tele'
+  return temp .. '\n\n' .. conditions..'\n\nالمزيد : @OS_AA23'
 end
 local function DevPoint(msg, matches) 
     city = matches[1]
@@ -56,8 +48,3 @@ return {
     },
   run = DevPoint
 }
---[[
-# For More Information ....! 
-# Developer : Aziz < @devss_bot >      #Dev
-# our channel: @help_tele
-]]
